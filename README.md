@@ -21,6 +21,9 @@ Every homework here is a small **Visual Studio 2022 console app** written in **C
 | 09 | 🔢 [NumberSort — Sort with vector + set](./NumberSort/README.md) | Templates, `std::vector`, `std::set`, `std::sort` |
 | 10 | 🔟 [IntByString — String-Based Super-Long Integer](./IntByString/README.md) | The `string` class, string parsing/arithmetic, operator overloading |
 | 11 | 📊 [ScoreSheet — Score-Form Editor & File Storage](./ScoreSheet/README.md) | Streams, `cin/cout`, formatting, `ifstream`/`ofstream` file I/O |
+| 12 | 🔍 [IntChecker — Validate & Convert an Integer String](./IntChecker/README.md) | Exception handling (`throw`/`try`/`catch`), class objects |
+| 13 | 📚 [StudentPool — Factory-Method Node Pool](./StudentPool/README.md) | Design patterns, factory method, doubly linked list node reuse |
+| 14 | 🧮 [DoubleView — Double Bits via Union](./DoubleView/README.md) | Union, inline functions, IEEE-754 bit patterns, NaN |
 
 ---
 

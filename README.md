@@ -18,6 +18,9 @@ Every homework here is a small **Visual Studio 2022 console app** written in **C
 | 06 | 📚 [StudentList — Sorted Doubly Linked List](./StudentList/README.md) | Pointers & `new/delete`, lvalue references, parameter passing |
 | 07 | 🎨 [ShapeDraw — MFC Single-Document Drawing](./ShapeDraw/README.md) | MFC SDI + `CDC` drawing, custom shape classes, colours |
 | 08 | 🔺 [TriangleMDI — MFC Multi-Document Triangle Editor](./TriangleMDI/README.md) | MDI MFC, dialogs & messages, mouse editing, self-describing file I/O |
+| 09 | 🔢 [NumberSort — Sort with vector + set](./NumberSort/README.md) | Templates, `std::vector`, `std::set`, `std::sort` |
+| 10 | 🔟 [IntByString — String-Based Super-Long Integer](./IntByString/README.md) | The `string` class, string parsing/arithmetic, operator overloading |
+| 11 | 📊 [ScoreSheet — Score-Form Editor & File Storage](./ScoreSheet/README.md) | Streams, `cin/cout`, formatting, `ifstream`/`ofstream` file I/O |
 
 ---
 

@@ -8,11 +8,13 @@ Every homework here is a small **Visual Studio 2022 console app** written in **C
 
 ## 🗺️ Homework overview
 
-| 🏷️ HW # | 📝 Task | 🧠 Concepts practiced |
+| HW# | 📝 Task | 🧠 Concepts practiced |
 | :---: | :--- | :--- |
-| 01 | 🖨️ [Console Pattern Printer (OOP) — “福”-themed](./FuPrinter/README.md) | First C++ program — console output; meeting a first small class |
+| 01 | 🖨️ [Console Pattern Printer](./FuPrinter/README.md) | First C++ program — console output; meeting a first small class |
 | 02 | 🔢 [Find GCD & LCM of Two Numbers](./GcdLcm/README.md) | What a class is — data members, member functions, constructors; recursion |
-| 03 | 🔷 [Shape Perimeter & Area Calculator (OOP)](./ShapeCalc/README.md) | Inheritance — base & derived classes, `protected` members, constructors |
+| 03 | 🔷 [Shape Perimeter & Area Calculator](./ShapeCalc/README.md) | Inheritance — base & derived classes, `protected` members, constructors |
+| 04 | 📅 [Calendar / Date Class](./Calendar/README.md) | Encapsulation — `private` data, validated setters, getters |
+| 05 | 🧮 [Complex Numbers — Operator Overloading](./Complex/README.md) | Operator overloading (`+ - * / ++ --`), prefix vs postfix |
 
 ---
 

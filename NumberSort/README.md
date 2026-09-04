@@ -4,7 +4,7 @@ Homework 09 — this chapter covers **function templates**, **class templates**,
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Read a list of integers from the console (you may define the input format).
 - Sort those integers with the `sort` function from the **algorithm** library, **without removing duplicates**, and print the result.
@@ -14,7 +14,7 @@ Homework 09 — this chapter covers **function templates**, **class templates**,
 
 ---
 
-## 🧠 Design & key ideas
+## 🧠 Key ideas
 
 The chapter’s tools are all used here:
 

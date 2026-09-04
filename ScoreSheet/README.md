@@ -4,7 +4,7 @@ Homework 11 — this chapter is about **streams**: stream concepts, stream class
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 A score sheet holds several students (each an id and a score); it starts empty. The command number controls the operation:
 
@@ -26,7 +26,7 @@ Design your own file format — but a sheet saved by command `8` must be readabl
 
 ---
 
-## 🧠 Design & file format
+## 🧠 Key ideas
 
 - `Student` — one record (id + score).
 - `ScoreSheet` — a list of students (`std::vector<Student>`) plus the commands’ logic and the file I/O.

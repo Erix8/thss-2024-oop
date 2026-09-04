@@ -4,7 +4,7 @@ Homework 10 — this chapter is about **string operations** (character-array str
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Write a super-long integer class **based on the string class**.
 - Implement **addition** and **subtraction** for super-long integers.
@@ -15,7 +15,7 @@ Homework 10 — this chapter is about **string operations** (character-array str
 
 ---
 
-## 🧠 Design — a number as a string (textbook style)
+## 🧠 Key ideas
 
 Two plain members hold the number:
 
@@ -44,7 +44,7 @@ IntByString c = a + b;   // string-based, no overflow however many digits
 
 ---
 
-## 🧪 Testing — at least five cases per operator
+## 🧪 Testing
 
 `runAllIntByStringTests()` runs **5 cases for each operator**, several with **super-long 40-digit numbers** (built from repeated characters, no need to type them out):
 

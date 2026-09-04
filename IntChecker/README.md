@@ -1,10 +1,10 @@
-# 🔍 IntChecker · Check a String Is an Integer (Exception Handling)
+# 🔍 IntChecker · Check a String Is an Integer
 
 Homework 12 — this chapter covers **namespaces**, **exception handling**, **class objects** and the **singleton** pattern. This little program uses a class object and **exceptions** (`throw` / `try` / `catch`) to decide whether a line typed in the console is a valid integer, and to report *why* it is not.
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Read **one line of text** from the console.
 - Analyse it: does it look like an **integer**?
@@ -15,7 +15,7 @@ Homework 12 — this chapter covers **namespaces**, **exception handling**, **cl
 
 ---
 
-## 🧠 Design & how exceptions are used
+## 🧠 Key ideas
 
 `IntChecker::parse(text)` returns the `long long` value when the text is a valid integer. When it is not, it `throw`s an `int` code — each code means one specific reason:
 

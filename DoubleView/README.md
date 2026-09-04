@@ -1,10 +1,10 @@
-# 🧮 DoubleView · See a `double` as Its Binary Bits (Union)
+# 🧮 DoubleView · See a `double` as Its Binary Bits
 
 Homework 14 — this chapter covers **programming conventions**, **inline functions** and **unions**. This program uses a **union** to inspect the 64 bits of a `double` in memory (IEEE 754: 1 sign + 11 exponent + 52 fraction), and it also prints the memory bits of **NaN** (“not a number”).
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Accept a **double** from the console and output its **binary representation in memory**.
 - Output the binary representation of **NaN** (not-a-number).
@@ -15,7 +15,7 @@ Homework 14 — this chapter covers **programming conventions**, **inline functi
 
 ---
 
-## 🧠 Design & key ideas
+## 🧠 Key ideas
 
 A `double` is stored in 64 bits. A **union** lets two views share the same memory, so we can read the same 8 bytes either as a `double` or as an unsigned integer of bits:
 

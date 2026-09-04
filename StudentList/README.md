@@ -1,10 +1,10 @@
-# 📚 StudentList · A Sorted Student Database (Doubly Linked List)
+# 📚 StudentList · A Sorted Student Database
 
 Homework 06 — this week’s lesson covers **pointers**, **pointers with const**, **lvalue references**, and **how function parameters are passed**. So this homework deliberately manages a **doubly linked list by hand** with `new`/`delete` and `prev`/`next` pointers, and one method even returns a result through a **reference parameter**. The list always stays sorted by student id (ascending).
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 Build a small console management system. A student has a **positive integer id** and a **non-negative integer score**. The command number decides what happens:
 
@@ -29,7 +29,7 @@ Additional requirements:
 
 ---
 
-## 🧠 Design & key ideas — a sorted doubly linked list
+## 🧠 Key ideas
 
 Two small classes keep things clear:
 
@@ -104,7 +104,7 @@ You can type commands by hand, or paste the whole [`sample_input.txt`](sample_in
 
 ---
 
-## 🧪 Testing — at least five situations
+## 🧪 Testing
 
 The program is tested by running these five situations (the sample file combines several of them):
 
@@ -129,7 +129,7 @@ A convenient end-to-end run is the contents of [`sample_input.txt`](sample_input
 
 ---
 
-## 🧭 Suggested reading order for beginners
+## 🧭 Suggested reading order
 
 1. Read [`src/Student.h`](src/Student.h) — the tiny data record.
 2. Read [`src/StudentList.h`](src/StudentList.h) — see the `Node` chain and the method list.

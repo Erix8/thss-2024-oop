@@ -10,19 +10,19 @@ Every homework here is a small **Visual Studio 2022 console app** written in **C
 
 | HW# | 📝 Task | 🧠 Concepts practiced |
 | :---: | :--- | :--- |
-| 01 | 🖨️ [Console Pattern Printer](./FuPrinter/README.md) | First C++ program — console output; meeting a first small class |
-| 02 | 🔢 [Find GCD & LCM of Two Numbers](./GcdLcm/README.md) | What a class is — data members, member functions, constructors; recursion |
-| 03 | 🔷 [Shape Perimeter & Area Calculator](./ShapeCalc/README.md) | Inheritance — base & derived classes, `protected` members, constructors |
-| 04 | 📅 [Calendar / Date Class](./Calendar/README.md) | Encapsulation — `private` data, validated setters, getters |
-| 05 | 🧮 [Complex Numbers — Operator Overloading](./Complex/README.md) | Operator overloading (`+ - * / ++ --`), prefix vs postfix |
-| 06 | 📚 [StudentList — Sorted Doubly Linked List](./StudentList/README.md) | Pointers & `new/delete`, lvalue references, parameter passing |
-| 07 | 🎨 [ShapeDraw — MFC Single-Document Drawing](./ShapeDraw/README.md) | MFC SDI + `CDC` drawing, custom shape classes, colours |
-| 08 | 🔺 [TriangleMDI — MFC Multi-Document Triangle Editor](./TriangleMDI/README.md) | MDI MFC, dialogs & messages, mouse editing, self-describing file I/O |
-| 09 | 🔢 [NumberSort — Sort with vector + set](./NumberSort/README.md) | Templates, `std::vector`, `std::set`, `std::sort` |
-| 10 | 🔟 [IntByString — String-Based Super-Long Integer](./IntByString/README.md) | The `string` class, string parsing/arithmetic, operator overloading |
-| 11 | 📊 [ScoreSheet — Score-Form Editor & File Storage](./ScoreSheet/README.md) | Streams, `cin/cout`, formatting, `ifstream`/`ofstream` file I/O |
-| 12 | 🔍 [IntChecker — Validate & Convert an Integer String](./IntChecker/README.md) | Exception handling (`throw`/`try`/`catch`), class objects |
-| 13 | 📚 [StudentPool — Factory-Method Node Pool](./StudentPool/README.md) | Design patterns, factory method, doubly linked list node reuse |
+| 01 | 🖨️ [FuPrinter — A “福”-Themed Console Pattern](./FuPrinter/README.md) | First C++ program — console output; meeting a first small class |
+| 02 | 🔢 [GcdLcm — GCD & LCM Finder](./GcdLcm/README.md) | What a class is — data members, member functions, constructors; recursion |
+| 03 | 🔷 [ShapeCalc — Shape Perimeter & Area Calculator](./ShapeCalc/README.md) | Inheritance — base & derived classes, `protected` members, constructors |
+| 04 | 📅 [Calendar — A Safe Date Class](./Calendar/README.md) | Encapsulation — `private` data, validated setters, getters |
+| 05 | 🧮 [Complex — Complex-Number Operator Overloading](./Complex/README.md) | Operator overloading (`+ - * / ++ --`), prefix vs postfix |
+| 06 | 📚 [StudentList — A Sorted Student Database](./StudentList/README.md) | Pointers & `new/delete`, lvalue references, parameter passing |
+| 07 | 🎨 [ShapeDraw — A Single-Document MFC Drawing](./ShapeDraw/README.md) | MFC SDI + `CDC` drawing, custom shape classes, colours |
+| 08 | 🔺 [TriangleMDI — A Multi-Document MFC Triangle Editor](./TriangleMDI/README.md) | MDI MFC, dialogs & messages, mouse editing, self-describing file I/O |
+| 09 | 🔢 [NumberSort — Sort Integers with vector + set](./NumberSort/README.md) | Templates, `std::vector`, `std::set`, `std::sort` |
+| 10 | 🔟 [IntByString — A String-Based Super-Long Integer](./IntByString/README.md) | The `string` class, string parsing/arithmetic, operator overloading |
+| 11 | 📊 [ScoreSheet — A Student Score-Form Editor & Storage](./ScoreSheet/README.md) | Streams, `cin/cout`, formatting, `ifstream`/`ofstream` file I/O |
+| 12 | 🔍 [IntChecker — Check a String Is an Integer](./IntChecker/README.md) | Exception handling (`throw`/`try`/`catch`), class objects |
+| 13 | 📚 [StudentPool — A Factory-Method Node Pool](./StudentPool/README.md) | Design patterns, factory method, doubly linked list node reuse |
 | 14 | 🧮 [DoubleView — Double Bits via Union](./DoubleView/README.md) | Union, inline functions, IEEE-754 bit patterns, NaN |
 
 ---

@@ -4,7 +4,7 @@ Homework 13 — this chapter introduces **design patterns**: the adapter and the
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 Manage a student id/score form. Define:
 
@@ -29,7 +29,7 @@ Commands:
 
 ---
 
-## 🧠 Design & key ideas — the factory / node pool
+## 🧠 Key ideas
 
 Two classes share the same node type (`StudentNode`, with `prev`/`next`):
 

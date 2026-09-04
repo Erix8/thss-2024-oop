@@ -1,10 +1,10 @@
-# 🔷 ShapeCalc · A Shape Perimeter & Area Calculator (Inheritance)
+# 🔷 ShapeCalc · A Shape Perimeter & Area Calculator
 
 Homework 03. In homework 02 we learned *what a class is*; here we take the next step: **inheritance**. `ShapeCalc` is a small menu-driven program that keeps building shapes and, at the end, reports how many were drawn plus the total perimeter and area. The point is inheritance — we give the five shapes one shared base class and let each derived class add its own maths.
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 The program reads a command (a positive integer) in a loop:
 
@@ -21,7 +21,7 @@ The program reads a command (a positive integer) in a loop:
 
 ---
 
-## 🧠 Design & key ideas — inheritance
+## 🧠 Key ideas
 
 Look at the five shapes: each is described by **one length** (the side of a regular polygon, or the radius of a circle). That shared trait belongs in one **base class**; each specific shape is a **derived class** that inherits it and adds its own behaviour.
 
@@ -95,7 +95,7 @@ Total area: 16.4635
 
 ---
 
-## 🧭 Suggested reading order for beginners
+## 🧭 Suggested reading order
 
 1. Read [`src/Shape.h`](src/Shape.h) and [`src/Shape.cpp`](src/Shape.cpp) — the base class that stores the shared `size_` and `pi`.
 2. Open [`src/Triangle.h`](src/Triangle.h) and [`src/Triangle.cpp`](src/Triangle.cpp) — see a derived class inherit `Shape` and add its own `perimeter()`/`area()`.

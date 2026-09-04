@@ -1,10 +1,10 @@
-# 🎨 ShapeDraw · A Single-Document MFC Drawing (CDC)
+# 🎨 ShapeDraw · A Single-Document MFC Drawing
 
 Homework 07 — a **single-document MFC** program that draws a picture with GDI. The picture is a little face built from three *custom shape classes*, and it uses **three or more colours**. The drawing is done in the view’s `OnDraw` using a `CDC`, exactly the week’s topic (MFC basics, SDI applications, and drawing with the `CDC` class).
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Write an **MFC program** that draws a nice picture on a graphical interface.
 - The picture must be built from **at least 3 custom shape classes** (the shapes and their meaning are up to you).
@@ -14,7 +14,7 @@ Homework 07 — a **single-document MFC** program that draws a picture with GDI.
 
 ---
 
-## 🧠 This week’s ideas & how the code uses them
+## 🧠 Key ideas
 
 **Course knowledge**: MFC overview, a basic single-document MFC program, drawing line segments / shapes in an SDI view, and drawing with the `CDC` class.
 

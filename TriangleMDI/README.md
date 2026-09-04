@@ -10,7 +10,7 @@ The program stores one triangle (three vertices) in its document, and you can:
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 Write an MDI MFC program that lets you create and edit **a single triangle**:
 
@@ -23,7 +23,7 @@ Write an MDI MFC program that lets you create and edit **a single triangle**:
 
 ---
 
-## 🧠 Design & key ideas
+## 🧠 Key ideas
 
 **Course knowledge**: creating a new multi-document MFC project, point & line-segment base code, editing resources, adding a dialog class, and handling events/messages.
 

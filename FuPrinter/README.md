@@ -6,7 +6,7 @@ The code here is intentionally small. It shows the usual *shape* of a C++ progra
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Write a program that forms a **nice-looking picture** in the console window by printing strings.
 - The **content and shape of the picture are up to you**.
@@ -33,7 +33,7 @@ Now replace the rows above with rows that trace the strokes of **福**, keep the
 
 ---
 
-## 🧠 What to notice in the code
+## 🧠 Key ideas
 
 A C++ program starts in `main()`. Here `main()` uses a small *class* named `FuPrinter`:
 
@@ -81,7 +81,7 @@ That is the whole idea for now: a class bundles some *data* (which symbol) with 
 
 ---
 
-## 🧭 Suggested reading order for beginners
+## 🧭 Suggested reading order
 
 1. Read [`src/Main.cpp`](src/Main.cpp) — the shortest file, it shows the "outside view" (make object → call method).
 2. Skim [`src/FuPrinter.h`](src/FuPrinter.h) — see the class shape: an attribute and a method.

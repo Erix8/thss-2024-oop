@@ -9,7 +9,7 @@ You give the program two positive integers and it answers with their:
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - **Problem.** The program reads two positive integers `a` and `b`. It computes and prints:
   1. the **Greatest Common Divisor** of `a` and `b`;
@@ -47,7 +47,7 @@ The classic trick: `LCM = (a × b) ÷ GCD`. The **Euclidean algorithm** finds th
 
 ---
 
-## 🧠 Key ideas (OOP in this example)
+## 🧠 Key ideas
 
 The maths could be written as a few free functions in `main()`. Instead the data (the two numbers) and the maths (gcd/lcm) are wrapped into one class, so `main()` just builds an object and reads its answers.
 
@@ -101,7 +101,7 @@ std::cout << calculator.lcm();    // 36
 
 ---
 
-## 🧭 Suggested reading order for beginners
+## 🧭 Suggested reading order
 
 1. Read [`src/Main.cpp`](src/Main.cpp) — the shortest file, it shows the "outside view" (build object → ask `gcd()`/`lcm()`).
 2. Skim [`src/GcdLcm.h`](src/GcdLcm.h) — see the class shape: a constructor, two public getters, one private helper, and the stored data.

@@ -1,10 +1,10 @@
-# 📅 Calendar · A Safe Date Class (Encapsulation)
+# 📅 Calendar · A Safe Date Class
 
 Homework 04 — this is the week we learn **encapsulation**: we hide a class’s data behind a private wall and let it out (or change it) only through *methods* that check the rules. `Calendar` stores a year-month-day, but because the data is `private`, an invalid date can never sneak in — month is always 1–12, and day is always a real day of the Gregorian calendar.
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Design a **calendar class** whose data is a year, a month and a day.
 - Use OOP so that:
@@ -18,7 +18,7 @@ Homework 04 — this is the week we learn **encapsulation**: we hide a class’s
 
 ---
 
-## 🧠 Design & key ideas — encapsulation
+## 🧠 Key ideas
 
 Without encapsulation you could write `date.day = 32;` and break everything. Here the fields are **private**, so the outside world simply cannot touch them. The only doorways are the setters, which check every value first, and the getters, which only read:
 
@@ -92,7 +92,7 @@ After 45 days it is 2026-10-20
 
 ---
 
-## 🧭 Suggested reading order for beginners
+## 🧭 Suggested reading order
 
 1. Read [`src/Calendar.h`](src/Calendar.h) — see the `private` data and the public methods that are the only way in.
 2. Read [`src/Calendar.cpp`](src/Calendar.cpp) — see how each setter validates, how `isLeapYear()`/`daysInMonth()` work, and how `addDays()` normalizes.

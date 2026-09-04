@@ -4,7 +4,7 @@ Homework 05 — this week’s topic is **polymorphism**, and in this lesson we l
 
 ---
 
-## 📋 The assignment (what you were asked to do)
+## 📋 The assignment
 
 - Write a **complex-number class** and overload these operators on it:
   - binary arithmetic: **`+`**, **`-`**, **`*`**, **`/`**
@@ -16,7 +16,7 @@ Homework 05 — this week’s topic is **polymorphism**, and in this lesson we l
 
 ---
 
-## 🧠 Design & key ideas — operator overloading
+## 🧠 Key ideas
 
 A complex number is `a + bi`. The data is `private` (we already learned encapsulation), so the binary operators are free functions that read the parts through the public getters:
 
@@ -82,7 +82,7 @@ Failed checks: 0
 
 ---
 
-## 🧭 Suggested reading order for beginners
+## 🧭 Suggested reading order
 
 1. Read [`src/Complex.h`](src/Complex.h) — see which operators are declared and the `private` data.
 2. Read [`src/Complex.cpp`](src/Complex.cpp) — see the formulas, and how prefix vs postfix differ.

@@ -1,0 +1,15 @@
+.DS_Store
+.vs/
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.vcxproj.user
+*.docx
+*.pdf

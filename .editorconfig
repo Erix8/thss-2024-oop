@@ -1,0 +1,11 @@
+root = true
+
+[*.{c,cc,cpp,h,hpp,inl}]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+
+[*.{md,sln,vcxproj,filters}]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true

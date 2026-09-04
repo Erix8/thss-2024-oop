@@ -1,5 +1,7 @@
 # 🔢 GcdLcm · GCD & LCM Finder
 
+Homework 02 — now that we have met C++ (homework 01) and seen a tiny first class, this is where we properly study **what a class is**. `GcdLcm` is a class that owns its own *data* (the two inputs and the computed results) and offers *methods* (`gcd()`, `lcm()`) for the rest of the program to read them. The *Key ideas* table further down is a good place to pick up class vocabulary.
+
 You give the program two positive integers and it answers with their:
 
 - 💪 **GCD** — Greatest Common Divisor

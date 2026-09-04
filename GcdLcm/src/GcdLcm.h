@@ -7,11 +7,11 @@ class GcdLcm
 public:
     GcdLcm(int firstNumber, int secondNumber);
 
-    int gcd() const;   // Greatest Common Divisor
-    int lcm() const;   // Least Common Multiple
+    int gcd();   // Greatest Common Divisor
+    int lcm();   // Least Common Multiple
 
 private:
-    int computeGcd(int first, int second) const;   // Recursive Euclidean algorithm
+    int computeGcd(int first, int second);   // Recursive Euclidean algorithm
 
     int firstNumber_;   // First positive integer input
     int secondNumber_;  // Second positive integer input

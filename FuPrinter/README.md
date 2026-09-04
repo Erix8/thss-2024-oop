@@ -1,6 +1,8 @@
 # 🖨️ FuPrinter · A “福”-Themed Console Pattern
 
-`FuPrinter` is one concrete answer to an **open-ended** assignment: it uses object-oriented code to print a pretty picture in the console, built line by line out of a symbol you can swap. The picture chosen here is the lucky Chinese character **福** (fú).
+Homework 01 — for most people this is their **first C++ program**. The task is open-ended: print a nice picture in the console out of characters, and the picture is up to you. Our chosen picture is the lucky Chinese character **福** (fú).
+
+The code here is intentionally small. It shows the usual *shape* of a C++ program: a `main()` that calls into a tiny class called `FuPrinter`. Don’t worry if the word *class* still feels fuzzy — this homework only meets it by example, and we really study what a class *is* in homework 02.
 
 ---
 
@@ -31,23 +33,20 @@ Now replace the rows above with rows that trace the strokes of **福**, keep the
 
 ---
 
-## 🧠 Key ideas (OOP in this tiny example)
+## 🧠 What to notice in the code
 
-The naive way is to dump all the `cout` lines straight into `main()`. But this course is about **object-oriented programming**, so the solution instead bundles the *data* and the *behaviour* into one class:
+A C++ program starts in `main()`. Here `main()` uses a small *class* named `FuPrinter`:
 
-| OOP term | What it means here | In the code |
-| :--- | :--- | :--- |
-| **Class** | A blueprint describing "a printer of 福 pictures" | `FuPrinter` |
-| **Object (instance)** | A real printer you can actually ask to draw | `printer` in `main()` |
-| **Member attribute** | The data the object remembers — which symbol to draw | `symbol_` |
-| **Member function (method)** | The behaviour the object knows — how to draw the pattern | `drawFu()` |
-
-Why bother wrapping it in a class? Because the two ideas that belong together — *"which character do I draw with"* (data) and *"how to draw 福"* (behaviour) — now live in **one place**, and `main()` only has to talk to the object through its public method. `main()` never needs to know *how* the pattern is drawn; it just calls `drawFu()`. That separation of concerns is the heart of OOP.
+- `FuPrinter` remembers **one piece of data** — the `symbol_` it should draw with.
+- Its `drawFu()` method knows how to turn that symbol into the rows of the “福” picture.
+- `main()` builds an object and asks it to draw:
 
 ```cpp
-FuPrinter printer('&');   // make an object, remember to use '&'
+FuPrinter printer('&');   // make a printer that will draw with '&'
 printer.drawFu();          // ask it to draw (the object knows the rest)
 ```
+
+That is the whole idea for now: a class bundles some *data* (which symbol) with the *actions* that use it (drawing). If terms like class, object, attribute or method feel new, that’s completely fine — they are introduced here just by example, and homework 02 explains them properly.
 
 ---
 

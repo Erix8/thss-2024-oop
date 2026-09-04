@@ -11,17 +11,17 @@ GcdLcm::GcdLcm(int firstNumber, int secondNumber)
 }
 
 // Recursive Euclidean algorithm: gcd(a, b) = gcd(b, a % b).
-int GcdLcm::computeGcd(int first, int second) const
+int GcdLcm::computeGcd(int first, int second)
 {
     return second == 0 ? first : computeGcd(second, first % second);
 }
 
-int GcdLcm::gcd() const
+int GcdLcm::gcd()
 {
     return gcd_;
 }
 
-int GcdLcm::lcm() const
+int GcdLcm::lcm()
 {
     return lcm_;
 }

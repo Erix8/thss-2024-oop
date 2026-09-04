@@ -5,9 +5,9 @@
 FuPrinter::FuPrinter(char symbol) : symbol_(symbol) {}
 
 // Print the rows of console output that together form the “福” picture.
-void FuPrinter::drawFu() const
+void FuPrinter::drawFu()
 {
-    const char s = symbol_;
+    char s = symbol_;
 
     std::cout << "   " << s << "    " << s << s << s << s << s << '\n';
     std::cout << '\n';

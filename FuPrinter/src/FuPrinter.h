@@ -6,10 +6,9 @@
 class FuPrinter
 {
 public:
-    explicit FuPrinter(char symbol = '&');
+    FuPrinter(char symbol = '&');
 
-    void drawFu() const;
+    void drawFu();
 
-private:
-    char symbol_;
+    char symbol_;   // which character to draw with
 };

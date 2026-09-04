@@ -15,6 +15,7 @@ Every homework here is a small **Visual Studio 2022 console app** written in **C
 | 03 | 🔷 [Shape Perimeter & Area Calculator](./ShapeCalc/README.md) | Inheritance — base & derived classes, `protected` members, constructors |
 | 04 | 📅 [Calendar / Date Class](./Calendar/README.md) | Encapsulation — `private` data, validated setters, getters |
 | 05 | 🧮 [Complex Numbers — Operator Overloading](./Complex/README.md) | Operator overloading (`+ - * / ++ --`), prefix vs postfix |
+| 06 | 📚 [StudentList — Sorted Doubly Linked List](./StudentList/README.md) | Pointers & `new/delete`, lvalue references, parameter passing |
 
 ---
 
